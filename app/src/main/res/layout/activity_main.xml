@@ -45,7 +45,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Login"
+        android:text="@string/text_placeholder_login"
         app:layout_constraintStart_toStartOf="@id/et_password"
         app:layout_constraintEnd_toEndOf="@id/et_password"
         app:layout_constraintTop_toBottomOf="@id/et_password"/>
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="4dp"
-        android:text="Google"
+        android:text="@string/text_placeholder_google"
         app:layout_constraintEnd_toStartOf="@id/btn_login_fb"
         app:layout_constraintStart_toStartOf="@id/et_password"
         app:layout_constraintTop_toBottomOf="@id/btn_login"/>
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginStart="4dp"
-        android:text="Facebook"
+        android:text="@string/text_placeholder_facebook"
         app:layout_constraintEnd_toEndOf="@id/et_password"
         app:layout_constraintStart_toEndOf="@id/btn_login_google"
         app:layout_constraintTop_toBottomOf="@id/btn_login"/>
